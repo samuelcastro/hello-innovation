@@ -1,3 +1,7 @@
 My hello-innovation project.
 
-Just run: "grunt serve"  ;)
+Just run: 
+1 - npm install
+2 - bower install
+3 - grunt serve
+;)
