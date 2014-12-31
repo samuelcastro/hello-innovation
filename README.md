@@ -1,7 +1,7 @@
 My hello-innovation project.
 
 Just run: 
-1 - npm install
-2 - bower install
-3 - grunt serve
+<br />1 - npm install
+<br />2 - bower install
+<br />3 - grunt serve
 ;)
