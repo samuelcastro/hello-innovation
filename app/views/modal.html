@@ -1,0 +1,74 @@
+<div class="modal-header">
+  <div class="modal-container-header">
+    <img src="images/img-circle.jpg" alt="Hi guys" class="img-circle top-img pull-left">
+    <h3 class="modal-title">Patricia Ann Hynes</h3>
+    <h5>Sep 09, 1951 - Jan 11, 2014</h5>
+    <h5>Serving Location: ABC Funeral Home</h5>
+  </div>
+</div>
+<form name="form">
+  <div class="modal-body modal-bg">
+    <div class="modal-container">
+      <h3> Family Address Request </h3>
+      <h4>
+        <p class="text-justify">
+          <small>
+            Brenda Neudecker <strong>(contact@brendaneudecker.com)</strong> just placed an order on your website. The customer has
+            requested the order to be sent to the family address.
+          </small>
+        </p>
+        <p class="text-justify">
+          <small>
+            Please enter address for <strong>Patricia's</strong> family below:
+          </small>
+        </p>
+      </h4>
+      <div class="modal-form-area">
+          <div class="row">
+            <div class="form-group pull-left" ng-class="{ 'has-error': form.firstName.$invalid }">
+              <input type="text" class="form-control input-lg" name="firstName" id="firstName" placeholder="First Name" required>
+            </div>
+            <div class="form-group pull-right">
+              <input type="text" class="form-control input-lg " placeholder="Last Name" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group">
+              <input type="text" class="form-control input-lg" placeholder="Address 1" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group">
+              <input type="text" class="form-control input-lg" placeholder="Address 2" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group pull-left">
+              <input type="text" class="form-control input-lg" placeholder="City" required>
+            </div>
+            <div class="form-group pull-right">
+              <input type="text" class="form-control input-lg " placeholder="State" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group pull-left">
+              <input type="text" class="form-control input-lg" placeholder="Postal Code" required>
+            </div>
+            <div class="form-group pull-right">
+              <input type="text" class="form-control input-lg " placeholder="Country" required>
+            </div>
+          </div>
+        <h4>
+          <p class="text-justify">
+            <small>
+             * The Family address will be kept confidential and will never disclosed.
+            </small>
+          </p>
+        </h4>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer modal-bg">
+    <button type="submit" class="btn btn-success btn-lg pull-right">Submit</button>
+  </div>
+</form>
